@@ -59,7 +59,7 @@ struct ContentView: View {
                        Image(systemName: "arrow.clockwise")              }
                     Spacer()
                     VStack{
-                        Text("CPU")
+                        Text("Computer")
                             .font(.headline)
                             .padding(.bottom, 10.0)
                         Text(String(cpuScore))
